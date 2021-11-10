@@ -1,0 +1,22 @@
+Um dos primeiros códigos que eu criei para o meu trabalho de conclusão do curso, como foi um dos primeiros,
+provavelmente deve ter confusões e bagunças, mas serviu de muito aprendizado e me introduziu na área de dados!.
+
+O código consiste em gerar modelos de regressões lineares normais e generalizadas (LM e GLM)
+entre as concentrações de poluentes medidas pela Companhia Ambiental do Estado de São Paulo (CETESB)
+e as medidas pelo satélite Sentinel-5P.
+
+O intuito do trabalho era de se estabeler um modelo a partir dessas medições, para que fosse possível prever
+a concentração de poluentes a partir do satélite em qualquer ponto, a qualquer momento. Servindo de auxílio
+para o sistema de monitoramento padrão, realizado pelas estações de monitoramento.
+
+Os poluentes analisados eram o monóxido de carbono (CO), material particulado (MP),
+ozônio (O3) e dióxido de nitrogênio (NO2). As regressões eram feitas para cada poluente separadamente,
+já que eu não tinha muita experiência, e dessa forma, era mais fácil acompanhar.
+
+Além disso, foram utilizadas 24 estações da CETESB que mediam estes poluentes, e dessa forma,
+eram comparadas com as concentrações fornecidas pelo satélite, para o pixel em que estas
+estações estão inseridas.
+
+
+Segue o link para quem tiver a curiosidade de ver o trabalho inteiro:
+https://repositorio.ufsc.br/handle/123456789/228086
